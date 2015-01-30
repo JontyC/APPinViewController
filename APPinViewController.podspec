@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'APPinViewController'
-  s.version      = '1.0.2'
+  s.version      = '1.0.3'
   s.platform     = :ios, '6.0'
   s.homepage     = 'https://github.com/Alterplay/APPinViewController'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
