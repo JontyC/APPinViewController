@@ -65,6 +65,7 @@
         //Fake text field
         _fakeTextField = [[UITextField alloc] initWithFrame:CGRectZero];
         _fakeTextField.keyboardType = UIKeyboardTypeNumberPad;
+        _fakeTextField.keyboardAppearance = UIKeyboardAppearanceDark;
         [_fakeTextField addTarget:self action:@selector(textFieldTextChanged:)
                  forControlEvents:UIControlEventEditingChanged];
         [self addSubview:_fakeTextField];
